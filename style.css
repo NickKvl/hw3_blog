@@ -1,0 +1,97 @@
+body
+{
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 14pt;
+    margin: 0
+}
+table
+{
+    text-indent: 0em;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+td,th
+{
+    padding: 2px;
+    border: 2px solid orangered
+}
+img
+{
+    width: 80%;
+}
+.pimg
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    text-indent: 0em;
+    font-size: 18pt;
+    margin: 2px
+}
+h2
+{
+    text-align: center;
+    text-indent: 0em;
+    font-size: 14pt;
+}  
+h3
+{
+    text-align: right;
+    text-indent: 0em;
+    font-size: 14pt;
+    margin: 20px 20px 20px 20px;
+}
+p
+{
+    margin-top: 1px;
+}
+.norm
+{
+    font-weight: normal;
+}
+.artpart
+{
+    text-align: center;
+    margin: 5px;
+}
+.ist
+{
+    margin: 1px;
+    font-size: 12pt;
+    
+}
+.part1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+button
+{
+    height: 50px;
+    width: 23%; 
+    background-color: #FF7F50; 
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+article
+{
+    max-width: 595px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #FF7F50;
+    color: white;
+    text-indent: 0em;
+    font-size: 10pt;
+    height: 25px
+}
